@@ -33,9 +33,9 @@
   "homepage": "https://github.com/openedx/frontend-component-ai-translations#readme",
   "devDependencies": {
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-platform": "7.0.1",
-    "@openedx/frontend-build": "13.0.27",
-    "@openedx/paragon": "^22.0.0",
+    "@edx/frontend-platform": "https://github.com/open-craft/frontend-platform/releases/download/v7.0.1-token-asu-moe/edx-frontend-platform-7.0.1.tgz",
+    "@openedx/frontend-build": "github:open-craft/frontend-build#asu-moe/redwood-css",
+    "@openedx/paragon": "23.0.0-alpha.1",
     "@testing-library/dom": "9.3.3",
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "10.4.9",
@@ -55,7 +55,7 @@
   },
   "peerDependencies": {
     "@edx/frontend-platform": "^7.0.1",
-    "@openedx/paragon": "^21.5.7 || ^22.0.0",
+    "@openedx/paragon": "^21.5.7 || ^22.0.0 || ^23.0.0-alpha.1",
     "prop-types": "^15.5.10",
     "react": "^16.9.0 || ^17.0.0",
     "react-dom": "^16.9.0 || ^17.0.0"
